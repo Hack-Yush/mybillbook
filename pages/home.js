@@ -407,6 +407,9 @@ const Home = () => {
         </div>
 
 
+
+
+
         <div className={home.link}>
           <div className={home.Ltitle}>Information</div>
           <div className={home.l1}>Refund Policy</div>
