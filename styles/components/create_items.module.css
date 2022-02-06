@@ -244,6 +244,14 @@
   border: 1px solid #ccc;
 }
 
+.rightB {
+  width: 100%;
+  height: 844px;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ccc;
+}
+
 .unit {
   height: 60px;
   width: 100%;
@@ -253,10 +261,10 @@
   margin-top: 15px;
 }
 
-.Munit{
+.Munit {
   height: 100%;
   width: 300px;
-  margin-left: 10px;
+  margin-left: 20px;
   font-size: 14px;
   /* margin-top: 3%; */
   display: flex;
@@ -265,36 +273,317 @@
   color: #a2a4a5
 }
 
-.Munit select{
+.Munit select {
   height: 40px;
   width: 300px;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
 
+.Aunit {
+  margin-top: 15px;
+  height: 30px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #ccc; */
+}
+
+.Aunit span {
+  color: #84bcf3;
+  font-size: 14px;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.rightB {
+.Sunit {
+  height: 60px;
   width: 100%;
-  height: 844px;
+  display: flex;
+  /* border: 1px solid #ccc; */
+  align-items: center;
+
+  margin-top: 30px;
+}
+
+
+.SU {
+  height: 100%;
+  width: 300px;
+  margin-left: 20px;
+  font-size: 14px;
+  /* margin-top: 3%; */
   display: flex;
   flex-direction: column;
-  border-left: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
+  color: #a2a4a5;
+  
 }
+
+.SU select {
+  height: 40px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.CR {
+  height: 100%;
+  width: 300px;
+  margin-left: 60px;
+  font-size: 14px;
+  /* margin-top: 3%; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #ccc; */
+  color: #a2a4a5
+}
+
+.CR input {
+  height: 60px;
+  border: 1px solid #ccc;
+}
+
+
+.OS {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  /* border: 1px solid #ccc; */
+  align-items: center;
+  margin-top: 15px;
+  margin-top: 30px;
+}
+
+.Ostock {
+  height: 100%;
+  width: 300px;
+  margin-left: 20px;
+  font-size: 14px;
+  /* margin-top: 3%; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #ccc; */
+  color: #a2a4a5
+}
+
+
+.Ostock input {
+  height: 60px;
+  border: 1px solid #ccc;
+}
+
+.ADate {
+  height: 100%;
+  width: 300px;
+  margin-left: 60px;
+  font-size: 14px;
+  /* margin-top: 3%; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #ccc; */
+  color: #a2a4a5
+}
+
+.ADate input {
+  height: 60px;
+  border: 1px solid #ccc;
+}
+
+.LS {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  /* border: 1px solid #ccc; */
+  align-items: center;
+  margin-top: 15px;
+  margin-top: 30px;
+}
+
+.Lunit {
+  margin-top: 15px;
+  height: 30px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #ccc; */
+  color: #84bcf3;
+  font-size: 14px;
+}
+
+.LSU{
+  height: 100%;
+  width: 300px;
+  margin-left: 195px;
+  font-size: 14px;
+  /* margin-top: 3%; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #ccc; */
+  color: #a2a4a5
+}
+
+.LSU input{
+  height: 60px;
+  border: 1px solid #ccc;
+}
+
+
+.PD{
+  margin-top: 30px;
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+
+.PD span{
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+
+.SP{
+  display: flex;
+}
+
+.Sbalance {
+  height: 50px;
+  width: 300px;
+  /* border : 1px solid #ccc; */
+  border-radius: 3px;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.Sbal {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  /* margin-left: 3%; */
+  cursor: pointer;
+}
+
+
+
+.Sbal input {
+  border: 1px solid #ccc;
+  text-decoration: none;
+  height: 100%;
+  width: 50%;
+  font-size: 16px;
+}
+
+
+.Sbal select {
+  border: 1px solid #ccc;
+  text-decoration: none;
+  height: 100%;
+  width: 50%;
+  font-size: 14px;
+}
+
+.Pbalance {
+  height: 50px;
+  width: 300px;
+  /* border : 1px solid #ccc; */
+  border-radius: 3px;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  margin-left: 60px;
+}
+
+
+
+.Pbal {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  /* margin-left: 3%; */
+  cursor: pointer;
+}
+
+
+
+.Pbal input {
+  border: 1px solid #ccc;
+  text-decoration: none;
+  height: 100%;
+  width: 50%;
+  font-size: 16px;
+}
+
+
+.Pbal select {
+  border: 1px solid #ccc;
+  text-decoration: none;
+  height: 100%;
+  width: 50%;
+  font-size: 14px;
+}
+
+
+
+.tax {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  /* border: 1px solid #ccc; */
+  align-items: center;
+  
+  margin-top: 30px;
+}  
+
+.HC {
+  height: 100%;
+  width: 300px;
+  margin-left: 20px;
+  font-size: 14px;
+  /* margin-top: 3%; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #ccc; */
+  color: #a2a4a5
+}
+
+.HC input {
+  height: 60px;
+  border: 1px solid #ccc;
+}
+
+
+.Gst {
+  height: 100%;
+  width: 300px;
+  margin-left: 60px;
+  font-size: 14px;
+  /* margin-top: 3%; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #ccc; */
+  color: #a2a4a5;
+  
+}  
+
+.Gst select {
+  height: 40px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}  
+
