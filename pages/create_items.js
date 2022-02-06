@@ -40,7 +40,7 @@ const create_items = () => {
             <div className={CI.imgBox}>
 
               <div className={CI.putimg}>
-                <label htmlFor="upload">
+                <label htmlhtmlhtmlfor="upload">
                   <img src={plus} id="shoutoutCamera" />
 
                 </label>
@@ -51,7 +51,7 @@ const create_items = () => {
 
 
               <div className={CI.putimg}>
-                <label htmlFor="upload">
+                <label htmlhtmlhtmlfor="upload">
                   <img src={plus} id="shoutoutCamera" />
 
                 </label>
@@ -61,7 +61,7 @@ const create_items = () => {
               </div>
 
               <div className={CI.putimg}>
-                <label htmlFor="upload">
+                <label htmlhtmlhtmlfor="upload">
                   <img src={plus} id="shoutoutCamera" />
 
                 </label>
@@ -71,7 +71,7 @@ const create_items = () => {
               </div>
 
               <div className={CI.putimg}>
-                <label htmlFor="upload">
+                <label htmlhtmlhtmlfor="upload">
                   <img src={plus} id="shoutoutCamera" />
 
                 </label>
@@ -82,7 +82,7 @@ const create_items = () => {
 
 
               <div className={CI.putimg}>
-                <label htmlFor="upload">
+                <label htmlhtmlhtmlfor="upload">
                   <img src={plus} id="shoutoutCamera" />
 
                 </label>
@@ -99,12 +99,12 @@ const create_items = () => {
             <div className={CI.type}>
               <div className={CI.inpt}>
                 <input type="checkbox" id="Product" name="Product" value="Product" />
-                <label for="Product"> Product</label>
+                <label htmlhtmlhtmlfor="Product"> Product</label>
               </div>
 
               <div className={CI.inpt}>
                 <input type="checkbox" id="service" name="service" value="service" />
-                <label for="service"> Service</label>
+                <label htmlhtmlhtmlfor="service"> Service</label>
               </div>
             </div>
           </div>
