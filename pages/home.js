@@ -10,10 +10,10 @@ const MI = "/icons/manage-inventory.svg"
 const minus = "/icons/icon-minus.webp"
 const plus = "/icons/icon-plus.webp"
 const twitter = "/icons/twitter.png"
-const youtube = "/icons/youtube.png"
-const linkedin = "/icons/linkedin.png"
 const instagram = "/icons/instagram.png"
 const facebook = "/icons/facebook.png"
+const youtube = "/icons/youtube.png"
+const linkedin = "/icons/linkedin.png"
 const whatsapp = "/icons/whatsapp-1.webp"
 
 
