@@ -115,7 +115,7 @@ const ServiceDetails = () => {
 
           <div className={SD.Idetail}>
             <div className={SD.detail}>
-              <span>Item Name</span>
+              <span>Service Name</span>
               <input type="name" name="itemName" placeholder="Enter Name"></input>
             </div>
             <div className={SD.detail}>
@@ -131,19 +131,16 @@ const ServiceDetails = () => {
           <div className={SD.code}>
 
             <div className={SD.detail}>
-              <span>Item Code</span>
+              <span>Service Code</span>
               <input type="name" name="itemCode" placeholder="Enter Code"></input>
             </div>
 
-            <div className={SD.Bdetail}>
-
-              Genrate Barode
-            </div>
+           
           </div>
 
           <div className={SD.desc}>
 
-            <span>Item Description</span>
+            <span>Service Description</span>
             <input type="text" name="itemDescription" placeholder="Enter Description"></input>
 
           </div>
@@ -153,7 +150,7 @@ const ServiceDetails = () => {
 
         <div className={SD.rightB}>
           <div className={SD.head}>
-            <span> Stock Details </span>
+            <span> Service Details </span>
           </div>
 
           <div className={SD.unit}>
@@ -168,61 +165,12 @@ const ServiceDetails = () => {
 
             </div>
 
-            <div className={SD.Aunit}>
-              <span>Enable Alternative Units</span>
-
-            </div>
 
           </div>
 
-          <div className={SD.Sunit}>
-            <div className={SD.SU}>
-              <span>Secondary Unit</span>
-              <select>
-                <option value="" disabled selected>Enter Unit </option>
-                <option value="collect" >PETI(PET)</option>
-              </select>
-
-            </div>
-
-            <div className={SD.CR}>
-              <span>Conversion Rate</span>
-              <input type="number" placeholder="Enter Conversion Rate(1PET=)"></input>
-            </div>
-          </div>
-
-
-          <div className={SD.OS}>
-            <div className={SD.Ostock}>
-              <span>Opening Stock</span>
-              <input type="number" placeholder="0 PET"></input>
-
-            </div>
-
-            <div className={SD.ADate}>
-              <span>As Of Date</span>
-              <input type="date" placeholder="Enter Conversion Rate(1PET=)"></input>
-            </div>
-          </div>
-
-          <div className={SD.LS}>
-
-            <div className={SD.Lunit}>
-              <span>Enable Low Stock Warning</span>
-
-            </div>
-
-            <div className={SD.LSU}>
-              <span>Low Stock Unit</span>
-              <input type="number" placeholder="Enter Low Stock Unit In PET"></input>
-
-            </div>
-
-
-          </div>
-
+         
           <div className={SD.PD}>
-            <span>PriSDng Details</span>
+            <span>Prising Details</span>
           </div>
 
           <div className={SD.SP}>
@@ -240,24 +188,13 @@ const ServiceDetails = () => {
               </div>
             </div>
 
-            <div className={SD.Pbalance}>
-              Purchase Price
-              <div className={SD.Pbal}>
-
-
-                <input placeholder='₹0' name="openingBalance" />
-                <select >
-                  <option value="collect">With Tax</option>
-                  <option value="pay">Without Tax</option>
-                </select>
-              </div>
-            </div>
+            
           </div>
 
           <div className={SD.tax}>
             <div className={SD.HC}>
-              <span>HSN Code</span>
-              <input type="number" placeholder="Enter HSN Code"></input>
+              <span>SAC Code</span>
+              <input type="number" placeholder="Enter SAC Code"></input>
             </div>
             <div className={SD.Gst}>
 
