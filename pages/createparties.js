@@ -162,12 +162,12 @@ const CreateParties = () => {
 
         <div className={CP.detail}>
           <span>Credit Period</span>
-          <input name="Period" placeholder="Enter " name="creditPeriod" onChange={handlefields} value={creditPeriod}></input>
+          <input  placeholder="Enter " name="creditPeriod" onChange={handlefields} value={creditPeriod}></input>
         </div>
 
         <div className={CP.detail}>
           <span>Credit Limit</span>
-          <input name="Limit" placeholder="0" name="creditLimit" onChange={handlefields} value={creditLimit}></input>
+          <input placeholder="0" name="creditLimit" onChange={handlefields} value={creditLimit}></input>
         </div>
       </div>
 
