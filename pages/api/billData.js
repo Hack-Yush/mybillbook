@@ -1,12 +1,33 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import  HttpStatus  from "http-status-codes";
+import nextConnect from 'next-connect'
+import middleware from '../../middleware/middleware'
+const handler = nextConnect();
 
-export default function handler(req, res) { 
-  if(req.method =='GET'){
-    res.status(200).json({ name: 'ayush' })
+handler.use(middleware);
+
+handler.post(async(req, res) => {
+  try {
+    const files = req.files;
+    const body = req.body;
+    res.status(HttpStatus.OK).json(body);
 
   }
-  else if(req.method =='POST'){
-    console.log(req.body);
-    res.status(200).json({ message: 'success'})
+  catch (err) {
+    res.status(HttpStatus.BAD_REQUEST).json({error:err.message});
   }
+})
+
+handler.get(
+  async (req, res) => {
+    res.status(HttpStatus.OK).json({"name":'ayush'})
+  }
+)
+ 
+export const config = {
+  api : {
+    bodyParser : false,
+  },
 }
+
+
+export default handler

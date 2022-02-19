@@ -7,5 +7,32 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = "postgres://vkzkxqtttqjikn:ef7084d3be26bdcea208a8ab99e1abf0654ef27653b232d20fa6a1fb0ddf9858@ec2-54-209-221-231.compute-1.amazonaws.com:5432/dt1b6onvmpn2u"
 }
+
+model PartyMasters {
+  partyId        Int     @default(autoincrement()) @id
+  partyName     String  @unique
+  contact    String       @unique
+  gstIn      String?  @unique
+  billingAddress    String?   
+  shippingAddress String?
+  creditPeriod    Int? @default(0)
+  creditLimit    Float? @default(0)
+  openingBalance    Float? @default(0)
+  type String  @default("customer")
+  state String?  
+}
+
+
+// Party ID
+// Party Name
+// Contact
+// GstIn
+// BillingAddress
+// ShppingAddress
+// CreditPeriod
+// CreditLimit
+// OpeningBalance
+// Type
+// State
